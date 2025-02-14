@@ -22,47 +22,43 @@
     </header>
 
     <main>
-        <div class="collection" role="region" aria-labelledby="screen-movie">
-
-            <figure id="screen-movie">
-                <img src="./asset/camonte.jpg" alt="scarface 1932">
+        <div class="collection" role="region" aria-labelledby="screen-movie" itemscope itemtype="http://schema.org/Movie">
+            <figure id="screen-movie" >
+                <img src="./asset/camonte.jpg" alt="scarface 1932" itemprop="image">
                 <figcaption>
-                    <h2>Scarface</h2>
+                    <h2 itemprop="name">Scarface</h2>
                     <ul>
-                        <li><strong>date</strong> : <time datetime="1932-12-23">1932</time></li>
-                        <li><strong>réalisateur</strong> : Howard Hawks</li>
-                        <li><strong>genre</strong> : policier</li>
-                        <li><strong>sortie dvd</strong> : 23 décembre 2005</li>
+                        <li><strong>date</strong> : <time datetime="1932-12-23" itemprop="datePublished">1932</time></li>
+                        <li><strong>réalisateur</strong> : <span itemprop="director">Howard Hawks</span></li>
+                        <li><strong>genre</strong> : <span itemprop="genre">policier</span></li>
+                        <li><strong>sortie dvd</strong> : <time datetime="2005-12-23" itemprop="publication">23 décembre 2005</time></li>
                     </ul>
                 </figcaption>
             </figure>
-
             <figure>
-                <img src="./asset/autant-le-vent-little.png" alt="autant-le-vent">
+                <img src="./asset/autant-le-vent-little.png" alt="autant-le-vent" itemprop="image">
                 <figcaption>
-                    <h2>Autant emporte le vent</h2>
+                    <h2 itemprop="name">Autant emporte le vent</h2>
                     <ul>
-                        <li><strong>date</strong> : 1939</li>
-                        <li><strong>réalisateur</strong> : Victor Flaming</li>
-                        <li><strong>genre</strong> : dramatique</li>
-                        <li><strong>sortie dvd</strong> : 19 mars 2006</li>
+                        <li><strong>date</strong> : <time datetime="1939" itemprop="datePublished">1939</time></li>
+                        <li><strong>réalisateur</strong> : <span itemprop="director">Victor Fleming</span></li>
+                        <li><strong>genre</strong> : <span itemprop="genre">dramatique</span></li>
+                        <li><strong>sortie dvd</strong> : <time datetime="2006-03-19" itemprop="publication">19 mars 2006</time></li>
                     </ul>
                 </figcaption>
             </figure>
-
             <figure>
-                <img src="./asset/king-kong.jpg" alt="King kong">
+                <img src="./asset/king-kong.jpg" alt="King kong" itemprop="image">
                 <figcaption>
-                    <h2>King kong</h2>
+                    <h2 itemprop="name">King Kong</h2>
                     <ul>
-                        <li><strong>date</strong> : 1933</li>
-                        <li><strong>réalisateur</strong> : Merian Cooper, Ernest B</li>
-                        <li><strong>genre</strong> : fantastique</li>
-                        <li><strong>sortie dvd</strong> : 20 novembre 2005</li>
+                        <li><strong>date</strong> : <time datetime="1933" itemprop="datePublished">1933</time></li>
+                        <li><strong>réalisateur</strong> : <span itemprop="director">Merian C. Cooper, Ernest B. Schoedsack</span></li>
+                        <li><strong>genre</strong> : <span itemprop="genre">fantastique</span></li>
+                        <li><strong>sortie dvd</strong> : <time datetime="2005-11-20" itemprop="publication">20 novembre 2005</time></li>
                     </ul>
                 </figcaption>
             </figure>
-
         </div>
     </main>
     <footer>
