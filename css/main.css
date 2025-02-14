@@ -39,6 +39,23 @@ header h1{
         }
     }
 }
+.btn-primary{
+    background-color: #4d86dd;
+    color: #fff;
+    width: max-content;
+    padding: 1rem 1.5rem;
+    text-align: center;
+    font-size: 1.4rem;
+    cursor: pointer;
+    text-transform: uppercase;
+    border-radius: .4rem;
+    transition: all .6s ease-in-out;
+
+}
+.btn-primary:hover{
+
+    background-color: #2365c9;;
+}
 footer *{
     text-align: center;
 }
