@@ -2,4 +2,62 @@
 
 /* THEME CSS */
 
+header h1{
+    line-height: 8rem;
+    text-align: center;
+    color: #fff;
+    font-weight: 700;
+    background-color: #222;
+    font-size: 5rem; /* x-large, xx-large | small x-small xx-small */
+}
 
+/* container */
+.collection{
+    max-width: 100rem;
+    margin: 5rem auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+    border: solid .1rem transparent;
+    padding: 1rem;
+    box-shadow: 0 0 2rem #999;
+    border-radius: .4rem;
+
+    figure{
+        img{
+            width: 100%;
+            vertical-align: middle;
+        }
+        figcaption h2{
+            background-color: #222;
+            color: #fff;
+            padding: .5rem;
+            text-align: center;
+        }
+        strong{
+            text-transform: capitalize;
+        }
+    }
+}
+footer *{
+    text-align: center;
+}
+
+/* responsive mobile */
+@media screen and (max-width: 40rem){
+    header h1{
+        font-size: large;
+    }
+    .collection{
+        grid-template-columns: repeat(1, 1fr);
+        margin: 0;
+    }
+}
+@media screen and (orientation: landscape){
+  
+    .collection{
+        grid-template-columns: repeat(3, 1fr);
+        
+    }
+
+}

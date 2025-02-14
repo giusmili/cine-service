@@ -24,6 +24,7 @@ body{
 ul,ol,p{
     margin: 0;
     padding: 0;
+    list-style: none;
 }
 h1, h2, h3, blockquote, figure{
     margin: 0;
@@ -36,4 +37,8 @@ a,button{
     color: #222;
     border: 0;
     text-decoration: none;
+}
+img{
+    display: inline-block;
+    object-fit: cover;
 }
