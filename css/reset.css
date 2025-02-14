@@ -1,0 +1,31 @@
+html{
+    font-size: 62.5%; /* 16 mult 62.5% = 1.0rem*/
+}
+body{
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    min-height: 100svh;
+    font: 1.6rem sans-serif;
+    margin: 0;
+    line-height: 1.6;
+    letter-spacing: .1rem;
+   
+}
+*{
+    box-sizing: border-box;
+}
+ul,ol,p{
+    margin: 0;
+    padding: 0;
+}
+h1, h2, h3, blockquote, figure{
+    margin: 0;
+}
+
+a,button{
+    padding: 0;
+    background: none;
+    color: #222;
+    border: 0;
+    text-decoration: none;
+}
